@@ -1,6 +1,6 @@
 const list = document.getElementsByTagName("li");
 
-const items =document.getElementsByClassName("not-orange");
+const items = document.getElementsByClassName("not-orange");
 
 console.log(list);
 /////////////////
