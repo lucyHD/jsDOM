@@ -25,5 +25,5 @@ submit.addEventListener("click", () =>{
     list.textContent = `<li>${input.value}</li>`
  })
 
- //with line 25, textContent will replace the list with the full template literal, including tags. THis is because it reads it as text.
+ //with line 25, textContent will replace the list with the full template literal, including tags. This is because it reads it as text.
  //if we put innerHTML, it will read it as HTML and make it a list item with bullet point.
