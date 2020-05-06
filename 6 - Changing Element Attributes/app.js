@@ -12,7 +12,7 @@ const button = document.getElementById("submit");
 
 button.addEventListener("click", ()=>{
 
-   image.src = "input.value" 
+// gt
 
 })
 
