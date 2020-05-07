@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
     
     list.appendChild(listItem);
 
-    input.value = '';
+    input.value = '';//clears the input box after item added to list
 })
 
 removeBtn.addEventListener('click', () => {
@@ -25,9 +25,15 @@ removeBtn.addEventListener('click', () => {
 
 /*New code below*/
 
-for(let i=0; i<listItem.length; i++){
-    listItem[i].addEventListener("mouseover", () =>{
-        listItem[i].textConent = listItem[i].textContent.toUpperCase(); });
-    listItem [i].addEventListener("mouseout", () =>{
-        listItem[i].textContent = listItem[i].textContent.toLowerCase(); });
+for (let i = 0; i<listItem.length; i++){
+    listItem[i].addEventListener("mouseover", ()=>{
+        listItem[i].textContent = listItem[i].textContent.toUpperCase(); });
+    listItem[i].addEventListener("mouseout", ()=>{
+        listItem[i].textContent =listItem[i].textContent.toLowerCase(); });
     }
+
+
+///however, it's better NOT to have the for loop, as takes longer. We can't just have the statements, as without the for loop, i is not defined. 
+
+
+

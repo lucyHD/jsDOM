@@ -24,17 +24,10 @@ removeBtn.addEventListener('click', () => {
 
 /*New code below*/
 
-document.addEventListener("click", (event)=>{
+document.addEventListener("click", (event) => {
     console.log(event);
     console.log(event.target);
 })
 
-list.addEventListener("mouseover", (event)=>{
-    event.target.textContent = event.target.textContent.toUpperCase();})
-list.addEventListener("mouseout",(event)=>{
-    event.target.textContent = event.target.textContent.toLowerCase();}) 
-
-
-//capital letters for LI when it is tagName. 
 
 
